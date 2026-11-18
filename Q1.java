@@ -34,15 +34,4 @@ public class Q1 {
 
         return tam + 1;
     }
-
-    public static int buscaId(Conta[] v, int tam, int x) {
-
-    for (int i = 0; i < tam; i++) {
-
-        if (v[i].id == x)
-            return i;
-    }
-
-    return -1;
-}
 }    
